@@ -1,5 +1,5 @@
 #!/bin/bash
-_CHROOTS_CMD="ls -1d /home/www/*/chroot"
+_CHROOTS_CMD="cat /var/www/chroot.lst"
 _SYSTEMD_UNIT_DIR="/etc/systemd/system"
 _BIND="\
 	/usr/share/zoneinfo \
